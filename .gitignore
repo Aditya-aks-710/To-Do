@@ -1,0 +1,28 @@
+# Node modules (never commit this)
+node_modules/
+
+.env
+
+# Uploaded files (user profile pics etc.)
+uploads/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Build output (if you build frontend later)
+dist/
+build/
+
+# Nodemon debug or pid files
+.pids/
+*.pid

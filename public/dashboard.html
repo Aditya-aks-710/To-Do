@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+<nav>
+  <button class="btn-grad" onclick="location.href='index.html'">To Do</button>
+  <div class="profile">
+    <div class="profile-img"><img class="image"></div>
+    <button class="btn-grad" id="btn">Logout</button>
+  </div>
+</nav>
+<body>
+  <h2></h2>
+
+
+  <div id="main">
+    <form id="todoForm">
+      <input type="text" id="todoInput" placeholder="Enter new todo" required />
+      <button class="logo-button" type="submit">
+        <img class="add-icon" src="logo/add.png">
+      </button>
+    </form>
+    <div id="todosContainer"></div>
+    
+  </div>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
